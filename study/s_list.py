@@ -34,3 +34,26 @@ if __name__ == "__main__":
     input = 'I like runoob'
     rw = reverseWords(input)
     print(rw)
+
+list = ['Google', 'Runoob', 1997, 2000]
+print("原始列表 : ", list)
+del list[2]
+print("删除第三个元素 : ", list)
+
+import operator
+
+a = [1, 2]
+b = [2, 3]
+c = [2, 3]
+print("operator.eq(a,b): ", operator.eq(a, b))
+print("operator.eq(c,b): ", operator.eq(c, b))
+
+dd = set()
+tup1 = ()
+
+dd = ('Hi!', 'ddd') * 4
+print(dd)
+
+for x in (1, 2, 3):
+    print(x, end=" ")
+

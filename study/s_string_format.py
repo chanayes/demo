@@ -21,8 +21,5 @@ ONCLICK="window.history.back()"></FORM>
 '''
 print(errHTML)
 
-x = 2
-print(f'{x+1=}')
-
-
-
+# x = 2
+print(f'{(x:=1)+1=}')

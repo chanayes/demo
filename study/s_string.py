@@ -24,3 +24,8 @@ print('转换为八进制:', octal_number)  # 转换为八进制: 0o52
 
 hexadecimal_number = hex(decimal_number)  # 十进制转换为十六进制
 print('转换为十六进制:', hexadecimal_number)  # 转换为十六进制: 0x2a
+
+import time
+for i in range(101):
+    print("\r{:3}%".format(i),end=' ')
+    time.sleep(0.05)
