@@ -32,7 +32,6 @@ nav_css = epub.EpubItem(uid="style_nav",
 book.add_item(nav_css)
 
 # 目录TOC设置
-
 book.toc = (epub.Link('intro.xhtml', 'Introduction', 'intro'),
             (
                 epub.Section('Languages'),
@@ -48,4 +47,4 @@ book.add_item(epub.EpubNcx())
 book.add_item(epub.EpubNav())
 
 # 电子书输出到文件
-epub.write_epub(r'C:\Users\wab\Desktop\epub3_test.epub', book)
+epub.write_epub(r'../tmp/epub/epub3_test.epub', book)
